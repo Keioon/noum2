@@ -1,0 +1,261 @@
+@media (min-width: 576px){
+
+}
+@media (min-width: 1200px){
+
+}
+@media (min-width: 1470px) {
+
+}
+@media (max-width: 1469px) {
+    .black-banner {
+        .container {
+            .row {
+                padding: 30px 140px;
+                .col-md-4 {
+                    padding: 80px 25px;
+                    .subtitle {
+                        font-size: 46px;
+                    }
+                }
+            }
+        }
+    } 
+    .footer {
+        .container {
+            .row {
+                padding: 30px 140px;
+            }
+        }
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width:1199px) {
+    footer  {
+        .container {
+            .row  {
+                padding: 20px 100px;
+                .col-flex-2 {
+                    width: 100%;
+                    min-height: 50px;
+                    max-width: 100%;
+                    padding: 30px 0;
+                    p {
+                        padding-bottom: 0;
+                    }
+                    form {
+                        .sign-input{ 
+                            margin-top: 10px;
+                        }
+                    }
+                    .footer-img {
+                        height: 100%;
+                        object-fit: contain;
+                        padding: 0;
+                    }
+                }
+                .col-flex {
+                    width: 25%;
+                    max-width: 25%;
+                    text-align: left;
+                }
+            }
+            .copy-write {
+                .gray-font {
+                    padding: 0;
+                }
+            }
+        }   
+    }
+    .black-banner {
+        .container {
+            .row {
+                padding: 20px 100px;
+                .col-md-4 {
+                    padding: 70px 20px;
+                    .subtitle {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    } 
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 991px) {
+    .black-banner {
+        .container {
+            .row {
+                padding: 10px 70px;
+                .col-md-4 {
+                    padding: 60px 15px;
+                    .subtitle {
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    } 
+    footer {
+        .container {
+            .row {
+                padding: 10px 70px 0 70px;
+                form {
+                    .sign-input {
+                        padding: 10px;
+                    }
+                    .submit-form {
+                        height: 48px;
+                    }
+                }
+            }
+            .copy-write {
+                padding-top: 0;;
+            }
+        }
+    }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 767px) {
+    .black-banner {
+        .container {
+            .row {
+                padding: 20px 100px;
+                .col-md-4 {
+                    max-height: 500px;
+                    padding: 10px;
+                    img {
+                        width: 100%;
+                    }
+                    .subtitle {
+                        font-size: 34px;
+                    }
+                }
+            }
+        }
+    } 
+    footer  {
+        .container {
+            padding: 20px 0 0;
+            .row  {
+                width: 100%;
+                padding: 20px 100px;
+                .col-flex-2 {
+                    width: 100%;
+                    min-height: 50px;
+                    max-width: 100%;
+                    padding: 30px 0;
+                    p {
+                        padding-bottom: 0;
+                        font-size: 12px;
+                    }
+                    a {
+                        font-size: 12px;
+                    }
+                    form {
+                        .sign-input{ 
+                            margin-top: 10px;
+                        }
+                    }
+                    .footer-img {
+                        height: 100%;
+                        object-fit: contain;
+                        padding: 0;
+                    }
+                }
+                .col-flex {
+                    width: 100%;
+                    max-width: 100%;
+                    text-align: left;
+                    flex-wrap: nowrap;
+                    align-items: center;
+                    padding: 10px 0;
+                    font-size: 12px;
+                    border-bottom: 1px solid;
+                    p {
+                        text-align: left;
+                        margin-right: 5px;
+                        font-size: 12px;
+                    } 
+                    a {
+                        margin: 0 5px;
+                        font-size: 12px;
+                        text-align: center;
+                    }
+                    .black-font {
+                        margin-bottom: 0;
+                    }
+                }
+                .social {
+                    .black-font {
+                        margin-bottom: 0;
+                        width: auto;
+                    }
+                    .social-media {
+                        width: auto;
+                        height: 24px;
+                        
+                        img {
+                            object-fit: cover;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+            .copy-write {
+                padding: 0 100px;
+                .gray-font {
+                    padding-left: 0;
+                    font-size: 12px;
+                }
+            }
+        }   
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575px) {
+    .black-banner {
+        .container {
+            .row {
+                padding: 10px 50px;
+                .col-md-4 {
+                    max-height: 500px;
+                }
+            }
+        }
+    } 
+    footer {
+        .container {
+            .row {
+                padding: 10px 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .black-banner {
+        .container {
+            .row {
+                padding: 5px 30px;
+                .col-md-4 {
+                    max-height: 500px;
+                    .subtitle {
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+    } 
+    footer {
+        .container {
+            .row {
+                padding: 5px 30px;
+            }
+        }
+    }
+
+}
