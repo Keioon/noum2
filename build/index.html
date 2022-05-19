@@ -20,7 +20,7 @@
             </button>  
             <div class="collapse navbar-collapse navbar-first-col" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#">NEW</a>
                     </li>
                     <li class="nav-item">
@@ -34,30 +34,30 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            EN
+                            EN 
                         </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">PL</a>
                         <a class="dropdown-item" href="#">DK</a>
-                    <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">GB</a>
                     </div>
                     </li>
                 </ul>
+
+                <div class="navbar-icons">
+                    <div class="search">
+                        <img src="./assets/img/search@3x.png">
+                        <img class="line" src="./assets/img/line.png">
+                    </div>
+                    <img src="./assets/img/account.png">
+                    <div class="cart">
+                        <img class="shopping-cart" src="./assets/img/shopping-cart.png">
+                        <p class="cart-items">(X)</p>
+                    </div>
+                </div>
             </div>
             <div class="navbar-title-img">
                 <img src="./assets/img/noume-black.png">
-            </div>
-            <div class="navbar-icons">
-                <div class="search">
-                    <img src="./assets/img/search@3x.png">
-                    <img class="line" src="./assets/img/line.png">
-                </div>
-                <img src="./assets/img/account.png">
-                <div class="cart">
-                    <img class="shopping-cart" src="./assets/img/shopping-cart.png">
-                    <p class="cart-items">(X)</p>
-                </div>
             </div>
         </nav>
     </div>
@@ -98,7 +98,7 @@
         </div>
     </section>
 
-    <section class="photo-banner">
+    <section class="photo-banner m-0">
         <div class="container">
             <img src="./assets/img/photo-mask.png"/>
             <div class="photo-content-second">
@@ -110,21 +110,23 @@
 
     <section class="new-collection">
         <div class="container">
-            <div class="row">
-                <div class="col-7 p-0">
-                    <div class="box-v2 p-5">
+            <div class="row pb-0">
+                <div class="col-md-7">
+                    <div class="box-v2">
                         <div class="text-content">
                             <p class="new-collection-header">Our new collection, was created with comfort and convenience in mind. Every woman deserves to dress stylishly and comfortably every day.</p>
         
-                            <img src="./assets/img/button.png">
+                            <button>    
+                                <img src="./assets/img/button.png">
+                            </button>
                         </div>
                         <div class="box-img2">
                             <img src="./assets/img/photo-wizerunkowe.png">
                         </div>
                     </div>
                 </div>
-                <div class="col-5 p-0">
-                    <div class="box-v2 p-5">
+                <div class="col-md-5">
+                    <div class="box-v2">
                         <div class="box-img">
                             <img src="./assets/img/photo-product-collection.png">
                         </div>
@@ -134,10 +136,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row pt-0">
-                <div class="col-4 p-0">
-                    <div class="box-v2 p-5 pt-0">
+                <div class="col-md-4 pl-0">
+                    <div class="box-v2 pt-0">
                         <div class="box-img">
                             <img src="./assets/img/photo-product.png">
                         </div>
@@ -147,8 +147,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4 p-0">
-                    <div class="box-v2 p-5 pt-0">
+                <div class="col-md-4 pl-0">
+                    <div class="box-v2 pt-0">
                         <div class="box-img">
                             <img src="./assets/img/photo-product2.png">
                         </div>
@@ -158,8 +158,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4 p-0">
-                    <div class="box-v2 p-5 pt-0">
+                <div class="col-md-4 pl-0">
+                    <div class="box-v2 pt-0 pl-0">
                         <div class="box-img">
                             <img src="./assets/img/photo-product3.png">
                         </div>
@@ -176,19 +176,23 @@
     <section class="personal-stylist">
         <div class="black-banner">
             <div class="container">
-                <div class="row m-0 pt-5">
+                <div class="row m-0">
                     <h2>Your personal stylist.</h2>
-                    <p class="p-3">Put together your look with us.</p>
-                    <div class="col-6">
-                        <img class="stylist-left-arrow stylist-arrow" src="./assets/img/path-7-copy.png">
+                    <p>Put together your look with us.</p>
+                    <div class="col-md-6 col-sm-8">
+                        <button class="stylist-arrow stylist-left-arrow">
+                            <img src="./assets/img/path-7-copy.png">
+                        </button>
                         <div class="text-content">
                             <p>Chic look</p>
                             <p class="product-price">400$</p>
                         </div>
                         <img src="./assets/img/photo-chiclook.png">
-                        <img class="stylist-right-arrow stylist-arrow" src="./assets/img/arrow-right-white.png">
+                        <button class="stylist-arrow stylist-right-arrow">
+                            <img src="./assets/img/arrow-right-white.png">
+                        </button>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-sm-4">
                         <div class="box-img">
                             <div class="text-content">
                                 <p>Elegant trousers</p>
@@ -218,7 +222,7 @@
             <div class="col-flex-2">
                 <img class="footer-img" src="./assets/img/noume-black.png">
             </div>
-            <div class="col-flex">
+            <div class="col-flex col-md-6">
                 <p class="black-font">Noume</p>
                 <a href="#" class="gray-font">
                     New
@@ -233,7 +237,7 @@
                     About
                 </a>
             </div>
-            <div class="col-flex">
+            <div class="col-flex col-md-6">
                 <p class="black-font">Details</p>
                 <a href="#" class="gray-font">
                     Brand
@@ -251,7 +255,7 @@
                     Language
                 </a>
             </div>
-            <div class="col-flex">
+            <div class="col-flex col-md-6">
                 <p class="black-font">Contact</p>
                 <a href="#" class="gray-font">
                     noume@brand.pl
@@ -260,7 +264,7 @@
                     noume@brand.pl
                 </a>
             </div>
-            <div class="col-flex social">
+            <div class="col-flex col-md-6 social">
                 <p class="black-font">Find us online</p>
                 <div class="social-media">
                     <a href="#">
@@ -278,9 +282,9 @@
                 </a>
                 <form action="" method="POST">
                     <input class="sign-input" type="email" id="email" name="Contact-email" placeholder="Enter Your Email">
-                    <div class="submit-form" onClick="submit_form()">
+                    <button class="submit-form" onClick="submit_form()">
                         <img src="./assets/img/arrow-right.png"/>
-                    </div>
+                    </button>
                 </form>
             </div>
         </div>
@@ -294,6 +298,11 @@
 
 
         
+            <!-- jquery.min.js -->
+    
+    <!-- script.js -->
+
+    <script src="./assets/js/script.min.js"></script>
         
 
         
